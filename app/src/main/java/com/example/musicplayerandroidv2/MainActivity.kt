@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         recyclerview.adapter = adapter
     }
 
+
     private fun init(){
         recyclerview = findViewById(R.id.recycle_view)
 

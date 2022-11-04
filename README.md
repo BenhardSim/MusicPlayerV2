@@ -1,6 +1,9 @@
 # MusicPlayerV2
 - Menggunakan RecyclerView
-- Masing-masing anggota RecyclerView mempunyai lagu dan penulis sendiri
+  salah satu komponen pada Android Studio yang memungkinkan aplikasi mampu menampung ribuan bahkan ratusan ribu data tanpa mengalami lag atau hang pada aplikasi
+  , recycleview lebih cocok digunakan untuk data yang berjumah banyak
+- Masing-masing anggota RecyclerView mempunyai lagu dan judul
 - Menggunakan service untuk memutar lagu
+  Service adalah komponen yang berjalan di latar belakang untuk melakukan proses tertentu tanpa perlu berinteraksi dengan pengguna
 - Elemen RecyclerView berbeda memiliki audio berbeda
 - Masih dalam tahap pengembangan

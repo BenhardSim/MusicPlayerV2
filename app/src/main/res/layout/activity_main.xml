@@ -13,18 +13,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:text="SONGS"
+        android:text="LAGU INDONESIA RAYA"
         android:textSize="20dp"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
-        android:padding="10dp"
+        android:padding="20dp"
         />
     
     <TextView
         android:id="@+id/no_songs_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NO SONGS FOUND"
+        android:text="LAGU TIDAK DITEMUKAN"
         android:layout_centerInParent="true"
         android:visibility="gone"
         android:textColor="@color/white"

@@ -13,7 +13,7 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:id="@+id/icon_view"
-        android:src="@drawable/ic_baseline_library_music_24"/>
+        android:src="@drawable/music_view"/>
 
     <TextView
         android:layout_width="match_parent"

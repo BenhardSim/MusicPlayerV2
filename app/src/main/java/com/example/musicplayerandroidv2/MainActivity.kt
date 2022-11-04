@@ -72,5 +72,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
+        if(recyclerView != null) {
+            recyclerView.adapter= MyAdapter(songsList, applicationContext)
+        }
     }
 }

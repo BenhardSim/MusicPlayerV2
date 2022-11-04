@@ -1,24 +1,15 @@
 package com.example.musicplayerandroidv2
 
-import android.view.LayoutInflater
+import android.annotation.SuppressLint
+import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.musicplayerandroidv2.R
+import kotlinx.coroutines.NonDisposableHandle.parent
+import java.nio.file.Files.find
 
-class ViewHolder(inflater : LayoutInflater, parent: ViewGroup) : RecyclerView.ViewHolder(inflater.inflate(R.layout.listlagu_template, parent, false)) {
-
-    private var txtJudul : TextView? = null
-    private var txtPenulis : TextView? = null
-
-    init {
-        txtJudul = itemView.findViewById(R.id.JudulLagu)
-        txtPenulis = itemView.findViewById(R.id.pengarang)
-    }
-
-    fun bind(data : MusicList){
-        txtJudul?.text = data.txtJudul
-        txtPenulis?.text = data.txtPenulis
-    }
-
+class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
+    val tvTitle: TextView = itemView.findViewById(R.id.music_title_text)
+    val tvIconImage: ImageView = itemView.findViewById(R.id.icon_view)
 }

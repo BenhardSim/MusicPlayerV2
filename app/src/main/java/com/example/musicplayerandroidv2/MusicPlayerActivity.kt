@@ -63,21 +63,6 @@ class MusicPlayerActivity : AppCompatActivity() {
                 Thread.sleep(100)
             }
         }).start()
-//        {
-//            fun run() {
-//                if(mediaPlayer != null) {
-//                    seekBar.progress = mediaPlayer.currentPosition
-//                    tvCurrentTime.text = convertToMMSS(mediaPlayer.currentPosition.toString())
-//
-//                    if(mediaPlayer.isPlaying) {
-//                        pausePlayButton.setImageResource(R.drawable.ic_baseline_pause_circle_outline_24)
-//                    } else {
-//                        pausePlayButton.setColorFilter(R.drawable.ic_baseline_play_circle_outline_24)
-//                    }
-//                }
-//                Handler(Looper.getMainLooper()).postDelayed({}, 100)
-//            }
-//        }
 
         seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
